@@ -1,0 +1,14 @@
+{
+	"images": [
+	{"path":"images/31.jpg","latitude":20,"longitude":123},
+	{"path":"images/32.jpg","latitude":21,"longitude":123},
+	{"path":"images/33.jpg","latitude":22,"longitude":124}, 
+	{"path":"images/34.jpg","latitude":23,"longitude":125}, 
+	{"path":"images/35.jpg","latitude":25,"longitude":67},
+	{"path":"images/36.jpg","latitude":45,"longitude":54}, 
+	{"path":"images/37.jpg","latitude":46,"longitude":43}, 
+	{"path":"images/38.jpg","latitude":58,"longitude":-23}, 
+	{"path":"images/39.jpg","latitude":65,"longitude":34}, 
+	{"path":"images/40.jpg","latitude":12,"longitude":56}
+	]
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Let WeChat</title>
+	<meta charset="UTF-8">
+	<script src="https://cdn.firebase.com/js/client/2.2.7/firebase.js"></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+	<script type="text/javascript" src="js/Let-Wechat.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/Let-Wechat.css">
+</head>
+<body>
+<div id="contain">
+    <div id="mask"></div>
+    <div id="login">
+		<div class="log_username">请输入用户名:</div>
+		<input type='text' id='nameInput' placeholder='enter a username...'>
+		<button id="confirm" class="inputButton">确认</button>
+	</div>
+	<div id="main">
+		<div id="chat-union">
+			<div class="chat-left">
+				<div class="chat-userlist">
+					<p id="names">当前在线用户：</p>
+				</div>
+				<div class="room-box">
+					<button class="gotoroom" id="mainroom">主聊天室</button>
+					<button class="gotoroom" id="room1">聊天室1</button>
+					<button class="gotoroom" id="room2">聊天室2</button>
+					<button class="gotoroom" id="room3">聊天室3</button>
+				</div>
+			</div>
+			<div class="chat-display">
+				<div class="chat-message">
+					<ul id='messages' class="current-message"></ul>
+				</div>
+				<div class="chat-input">
+					<input type='text' id='messageInput'  placeholder='Type a message...'>
+					<button id="sendmessage">发送</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

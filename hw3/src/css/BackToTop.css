@@ -1,0 +1,39 @@
+#test{
+		background-image: url("../images/mark.jpg");
+		height: 3000;
+		width: 1000;
+		margin: 0 auto;
+		font-size: 30;
+		font-family: "微软雅黑"
+		text-align: center;
+	}
+#BackToTop{
+	background-image: url("../images/up.png");
+	background-size: 100% 100%;
+	width: 80;
+	height: 60;
+	font-weight: 5;
+	font-size: 20;
+	text-align: center;
+	position: absolute;
+}
+#LU, #RU, #LD, #RD{
+	font-size: 20;
+	width: 80;
+	height: 50;
+}
+#XY{
+	font-size: 20;
+	width: 100;
+	height: 50;
+}
+#head{
+	font-size: 35;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+p{
+	font-size: 20;
+	margin: 10;
+	font-family: "微软雅黑";
+}
